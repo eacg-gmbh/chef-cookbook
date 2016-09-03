@@ -17,7 +17,7 @@ source_url 'https://github.com/rabbitmq/chef-cookbook'
 
 depends 'erlang'
 depends 'yum-epel'
-#depends 'yum-erlang_solutions'
+depends 'yum-erlang_solutions'
 depends 'dpkg_autostart'
 
 supports 'debian', '>= 8.0'
