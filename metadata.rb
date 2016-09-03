@@ -16,7 +16,7 @@ issues_url 'https://github.com/rabbitmq/chef-cookbook/issues'
 source_url 'https://github.com/rabbitmq/chef-cookbook'
 
 depends 'erlang'
-#depends 'yum-epel'
+depends 'yum-epel'
 #depends 'yum-erlang_solutions'
 depends 'dpkg_autostart'
 
