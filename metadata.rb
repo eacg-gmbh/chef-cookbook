@@ -20,6 +20,7 @@ depends 'yum-epel'
 depends 'yum-erlang_solutions'
 depends 'dpkg_autostart'
 
+
 supports 'debian', '>= 8.0'
 supports 'ubuntu', '>= 14.04'
 supports 'redhat'
